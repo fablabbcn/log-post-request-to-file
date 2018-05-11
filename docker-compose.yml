@@ -1,0 +1,8 @@
+version: '3'
+services:
+  logger:
+    build: .
+    ports:
+      - "8000:8000"
+    volumes:
+      - .:/usr/src/app
